@@ -14,7 +14,7 @@ describe('The Footer', () => {
       },
     });
   });
-  it('Default container width', () => {
+  it('Add Footer text', () => {
     expect(wrapper.props().content).toMatch(footerContent);
   });
   it('Snap shot matches', () => {
