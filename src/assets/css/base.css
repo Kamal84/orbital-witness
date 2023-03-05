@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-poppins h-screen;
+}
+
+#app {
+  @apply flex flex-col h-full bg-slate-100;   
+}
